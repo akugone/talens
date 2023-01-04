@@ -28,8 +28,6 @@ export default function useLogin() {
       },
     });
 
-    console.log("authenticate", authenticate);
-
     // 4. Receive a access token from the Lens API if  we succeed
     // 5. Store the access token inside local storage so we can use it.
     const { accessToken, refreshToken } = authenticate;
